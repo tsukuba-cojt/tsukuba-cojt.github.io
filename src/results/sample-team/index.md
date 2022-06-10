@@ -6,6 +6,8 @@ term: spring
 icon: "result-icon-sample.png"
 cover: "result-cover-sample.png"
 description: このアプリの要約文です。あまり長くならないように。
+repositories: ["https://github.com/tsukuba-cojt/.github"]
+students: [123456789]
 ---
 
 <header class="result-header">
@@ -23,3 +25,7 @@ description: このアプリの要約文です。あまり長くならないよ�
 ## 作品紹介
 
 自由記述、マークダウン、html, nunjucks形式が使えるので、それぞれWebページを作成してください。
+
+{% for student in students %}
+{{student.name}}
+{% endfor %}
