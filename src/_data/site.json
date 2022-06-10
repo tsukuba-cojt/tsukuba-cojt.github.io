@@ -3,7 +3,7 @@
   "name": "筑波大学情報学群 組み込み技術キャンパスOJT",
   "origin": "http://localhost:8080",
   "pages": [
-    {"path": "/", "title": "はじめに"},
-    {"path": "/results", "title": "成果発表会"}
+    { "path": "/", "title": "はじめに" },
+    { "path": "/results", "title": "成果発表会" }
   ]
 }
