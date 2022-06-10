@@ -1,0 +1,25 @@
+name: CI
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+jobs:
+  ci:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+          cache: yarn
+      - run: yarn install --check-files --frozen-lockfile --non-interactive
+      - run: yarn lint
+      - id: format
+        run: |
+          yarn format
+          echo "::set-output name=status::$(git status --porcelain)"
+      - if: steps.format.outputs.status != ''
+        run: |
+          git -c "user.name=${{ github.actor }}" -c "user.email=${{ github.actor }}@users.noreply.github.com" commit -a -m "bot: format"
+          git push origin HEAD

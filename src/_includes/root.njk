@@ -1,0 +1,28 @@
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% include 'ogp.njk' %}
+    <link rel="stylesheet" href="{{ '/style/style.css' | url }}" />
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    {% include "header.njk" %}
+    <div class="container flex gap-x-16 py-8">
+      <div class="w-64 flex-shrink-0 pt-8 mt-4 hidden md:block">
+        <nav class="side-menu">
+          <ul>
+            {% for navItem in site.pages %}
+            <li>
+              <a href="{{navItem.path | url}}">{{navItem.title}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
+      <main class="flex-grow prose max-w-none">{{ content | safe }}</main>
+    </div>
+
+    {% include "footer.njk" %}
+  </body>
+</html>

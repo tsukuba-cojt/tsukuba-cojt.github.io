@@ -1,0 +1,14 @@
+{
+  "extensions.ignoreRecommendations": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.njk": "html"
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "emmet.includeLanguages": {
+    "nunjucks": "html"
+  }
+}

@@ -1,0 +1,21 @@
+<footer class="bg-gray-100 mt-16 py-16">
+  <div class="container">
+    <div class="flex justify-center items-center gap-y-8 flex-col md:flex-row">
+      <div class="text-xl font-bold mx-16 text-center">{{ site.name }}</div>
+      <div class="flex-grow">
+        <nav class="footer-nav">
+          <ul class="flex flex-wrap gap-4 text-sm justify-center">
+            {% for navItem in site.pages %}
+            <li>
+              <a class="whitespace-nowrap" href="{{navItem.path | url}}"
+                >{{navItem.title}}</a
+              >
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
+      <p class="text-xs">&copy; xxx All rights reserved.</p>
+    </div>
+  </div>
+</footer>
