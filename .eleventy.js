@@ -39,6 +39,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.on("beforeBuild", optimizeImages);
   eleventyConfig.addPassthroughCopy(".nojekyll");
   return {
+    pathPrefix: "/.github/",
     dir: {
       input: "src",
       output: "docs",
