@@ -37,6 +37,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addWatchTarget("src/style/**/*.{css,scss,pcss}");
   eleventyConfig.addPassthroughCopy("src/!(_*)/**/*.{ico,js,mp4,webm,pdf}");
   eleventyConfig.on("beforeBuild", optimizeImages);
+  eleventyConfig.addPassthroughCopy(".nojekyll");
   return {
     dir: {
       input: "src",
