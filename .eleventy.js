@@ -6,7 +6,7 @@ const postcssrc = require("postcss-load-config");
 
 const optimizeImages = async () => {
   const images = await fg(["src/**/*.{jpeg,jpg,png,webp,gif,tiff,avif,svg}"], {
-    ignore: ["dist", "**/node_modules"],
+    ignore: ["docs", "**/node_modules"],
   });
   for (const image of images) {
     await Image(image, {
@@ -15,7 +15,7 @@ const optimizeImages = async () => {
       sharpOptions: {
         animated: true,
       },
-      outputDir: dirname(image).replace(/^src/, "dist"),
+      outputDir: dirname(image).replace(/^src/, "docs"),
     });
   }
 };
@@ -40,7 +40,7 @@ module.exports = (eleventyConfig) => {
   return {
     dir: {
       input: "src",
-      output: "dist",
+      output: "docs",
     },
   };
 };
