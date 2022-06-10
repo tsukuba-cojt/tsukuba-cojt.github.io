@@ -1,0 +1,12 @@
+:root {
+  font-size: var(--size-font);
+}
+.result-header {
+  @apply flex gap-x-4 items-center;
+  img {
+    @apply w-8 h-8 rounded overflow-hidden my-0;
+  }
+  h1 {
+    @apply my-0;
+  }
+}

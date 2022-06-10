@@ -1,0 +1,7 @@
+overrides:
+  - files: ["*.md", README]
+    options:
+      parser: markdown-nocjsp
+  - files: ["*.njk"]
+    options:
+      parser: html
