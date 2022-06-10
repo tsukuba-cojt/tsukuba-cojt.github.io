@@ -1,4 +1,4 @@
 *.log
 .cssdist
-dist
+docs
 node_modules

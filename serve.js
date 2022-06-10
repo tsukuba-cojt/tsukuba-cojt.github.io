@@ -3,7 +3,7 @@ const http = require("http");
 
 const server = http.createServer((request, response) => {
   return handler(request, response, {
-    public: "dist",
+    public: "docs",
   });
 });
 

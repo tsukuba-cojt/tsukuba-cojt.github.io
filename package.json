@@ -45,9 +45,9 @@
   },
   "scripts": {
     "build": "NODE_ENV=production run-s clean build:eleventy build:cachekill",
-    "build:cachekill": "cachekill -r -s 'dist/**/!(*.html)' -t 'dist/**/*.{js,css,html}'",
+    "build:cachekill": "cachekill -r -s 'docs/**/!(*.html)' -t 'docs/**/*.{js,css,html}'",
     "build:eleventy": "eleventy",
-    "clean": "rimraf dist",
+    "clean": "rimraf docs",
     "dev": "run-p dev:*",
     "dev:eleventy": "eleventy --serve",
     "fix": "eslint --fix .",
