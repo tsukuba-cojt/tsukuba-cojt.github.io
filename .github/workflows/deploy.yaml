@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
 
-permissions: 
+permissions:
   contents: write
 
 jobs:
