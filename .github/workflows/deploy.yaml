@@ -11,13 +11,15 @@ permissions:
 
 jobs:
   deploy:
-    runs-on: macos-latest
+    runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: "14"
-      - run: yarn install
+          node-version: "16"
+          cache: yarn
+      # node_modules ではなく yarn cache をキャッシュする
+      - run: yarn install --frozen-lockfile
       - run: yarn build
       - run: touch ./docs/.nojekyll
       - uses: JamesIves/github-pages-deploy-action@3.7.1
