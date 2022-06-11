@@ -17,7 +17,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "16"
-      - run: yarn install
+          cache: yarn
+      # node_modules ではなく yarn cache をキャッシュする
+      - run: yarn install --frozen-lockfile
       - run: yarn build
       - run: touch ./docs/.nojekyll
       - uses: JamesIves/github-pages-deploy-action@3.7.1
