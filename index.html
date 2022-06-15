@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="/.github/style/style.css" />
     <title>はじめに</title>
   </head>
-  <body>
+  <body class="prose max-w-none bg-gray-50">
     <header class="global-header">
   <div class="container h-full flex justify-between items-center gap-x-4">
     <div class="brand-logo">
-      <a href="/.github/">
-        <span class="md:text-xl font-bold">筑波大学情報学群 組み込み技術キャンパスOJT</span>
+      <a href="/.github/" class="flex items-center gap-x-2 no-underline">
+        <img class="w-12 h-12" src="/.github/image/logo.png" alt="" />
+        <span class="text-sm md:text-base font-bold">筑波大学情報学群 組み込み技術キャンパスOJT</span>
       </a>
     </div>
 
@@ -33,8 +34,10 @@
   </div>
 </header>
 
-    <div class="container flex gap-x-16 py-8">
-      <div class="w-64 flex-shrink-0 pt-8 mt-4 hidden md:block">
+    <div
+      class="container grid grid-cols-1 md:grid-cols-12 grid-flow-col gap-x-16 pt-8"
+    >
+      <div class="col-span-3 hidden md:block">
         <nav class="side-menu">
           <ul>
             
@@ -49,7 +52,7 @@
           </ul>
         </nav>
       </div>
-      <main class="flex-grow prose max-w-none">
+      <main class="col-span-9">
 <article class="prose">
   <h1>はじめに</h1>
   <p>
