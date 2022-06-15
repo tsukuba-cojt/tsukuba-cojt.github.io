@@ -22,15 +22,6 @@ module.exports = {
             a: {
               color: theme("color.red.500"),
             },
-            h1: {
-              fontSize: theme("fontSize.2xl"),
-              color: theme("color.gray.700"),
-            },
-            h2: {
-              fontSize: theme("fontSize.lg"),
-              color: theme("color.gray.700"),
-              position: "relative",
-            },
             p: {
               lineHeight: theme("lineHeight.relaxed"),
             },

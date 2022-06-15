@@ -38,6 +38,23 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("src/!(_*)/**/*.{ico,js,mp4,webm,pdf}");
   eleventyConfig.on("beforeBuild", optimizeImages);
   eleventyConfig.addPassthroughCopy(".nojekyll");
+
+  eleventyConfig.addShortcode("student_by_id", function (students, ids) {
+    const res = [];
+    students.forEach((student) => {
+      ids.forEach((id) => {
+        if (id === student.id) {
+          res.push(student);
+        }
+      });
+    });
+    let resHTML = "<ul>";
+    res.forEach(
+      (st) =>
+        (resHTML += `<li><a href="/students/${st.id}">${st.name}</a></li>`)
+    );
+    return resHTML + "</ul>";
+  });
   return {
     pathPrefix: "/.github/",
     dir: {

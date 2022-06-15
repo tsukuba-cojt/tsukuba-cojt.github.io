@@ -1,0 +1,35 @@
+---
+layout: root
+title: 成果発表一覧
+---
+
+<h1>{{title}}</h1>
+
+<p>
+  学生が残した成果発表の内容が、インターネット上で検索可能な状態にするため、静的サイトジェネレータである
+  <a href="https://www.11ty.dev/">11ty</a>
+  を使ってブログ形式として残すことを目的とする。
+</p>
+<div class="not-prose">
+  <ul class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    {%- for post in collections.results -%}
+    <li>
+      <a
+        href="{{ post.url | url }}"
+        class="jumpu-card no-underline hover:opacity-80 block py-8"
+      >
+        <figure class="flex flex-col justify-center items-center">
+          <img
+            class="w-24 h-*24 rounded-md"
+            src="{{ post.data.icon | url }}"
+            alt="{{ post.data.title }}"
+          />
+          <figcaption class="mt-4">
+            <h2>{{ post.data.title }}</h2>
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>
