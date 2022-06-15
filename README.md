@@ -50,4 +50,9 @@ npm関連パッケージのインストール
 
 `yarn build`
 
-以上
+## github pages
+
+https://tsukuba-cojt.github.io/.github/
+
+（近い将来変更予定）
+
