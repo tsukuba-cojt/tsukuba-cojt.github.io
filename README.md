@@ -55,4 +55,3 @@ npm関連パッケージのインストール
 https://tsukuba-cojt.github.io/.github/
 
 （近い将来変更予定）
-
