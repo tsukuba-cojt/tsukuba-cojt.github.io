@@ -126,5 +126,21 @@
     "faculty": "知識情報・図書館",
     "year": 2022,
     "course": "sw"
+  },
+  {
+    "id": 201911343,
+    "name": "鈴木 颯介",
+    "account_url": "https://github.com/sosukesuzuki",
+    "faculty": "情報学群情報科学類",
+    "year": 2022,
+    "course": "sw"
+  },
+  {
+    "id": 202011445,
+    "name": "細川 隆之介",
+    "account_url": "https://github.com/HosokawaR",
+    "faculty": "情報学群情報科学類",
+    "year": 2022,
+    "course": "sw"
   }
 ]
