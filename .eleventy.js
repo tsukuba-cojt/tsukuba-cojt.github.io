@@ -56,7 +56,7 @@ module.exports = (eleventyConfig) => {
     return resHTML + "</ul>";
   });
   return {
-    pathPrefix: "/.github/",
+    pathPrefix: "",
     dir: {
       input: "src",
       output: "docs",
