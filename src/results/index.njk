@@ -15,13 +15,13 @@ title: 成果発表一覧
     {%- for post in collections.results -%}
     <li>
       <a
-        href="{{ post.url | url }}"
+        href="{{ post.url }}"
         class="jumpu-card no-underline hover:opacity-80 block py-8"
       >
         <figure class="flex flex-col justify-center items-center">
           <img
             class="w-24 h-*24 rounded-md"
-            src="{{ post.data.icon | url }}"
+            src="{{ post.data.icon }}"
             alt="{{ post.data.title }}"
           />
           <figcaption class="mt-4">

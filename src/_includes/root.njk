@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% include 'ogp.njk' %}
-    <link rel="stylesheet" href="{{ '/style/style.css' | url }}" />
+    <link rel="stylesheet" href="/style/style.css" />
     <title>{{ title }}</title>
   </head>
   <body class="prose max-w-none bg-gray-50">
@@ -16,7 +16,7 @@
           <ul>
             {% for navItem in site.pages %}
             <li>
-              <a href="{{navItem.path | url}}">{{navItem.title}}</a>
+              <a href="{{navItem.path }}">{{navItem.title}}</a>
             </li>
             {% endfor %}
           </ul>
