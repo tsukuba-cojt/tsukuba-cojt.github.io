@@ -2,7 +2,7 @@
   {
     "id": 123456789,
     "name": "秋葉秀樹",
-    "account_url": "https://github.com/Hidetaro7",
+    "account_url": ["https://github.com/Hidetaro7"],
     "faculty": "○○学科",
     "year": 2022,
     "course": "sw"
@@ -10,7 +10,7 @@
   {
     "id": 201911343,
     "name": "鈴木颯介",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "情報科学",
     "year": 2022,
     "course": "sw"
@@ -18,7 +18,7 @@
   {
     "id": 202011445,
     "name": "細川隆之介",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "情報科学",
     "year": 2022,
     "course": "sw"
@@ -26,7 +26,7 @@
   {
     "id": 202010017,
     "name": "河上歩乃歌",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "情報メディア創成",
     "year": 2022,
     "course": "sw"
@@ -34,7 +34,7 @@
   {
     "id": 202010246,
     "name": "香取賢佑",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "情報メディア創成",
     "year": 2022,
     "course": "sw"
@@ -42,7 +42,7 @@
   {
     "id": 202010392,
     "name": "種村朋洋",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "情報メディア創成",
     "year": 2022,
     "course": "sw"
@@ -50,7 +50,7 @@
   {
     "id": 202010504,
     "name": "福田愛",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "情報メディア創成",
     "year": 2022,
     "course": "sw"
@@ -58,7 +58,7 @@
   {
     "id": 202010602,
     "name": "藤永弥太郎",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "情報メディア創成",
     "year": 2022,
     "course": "sw"
@@ -66,7 +66,7 @@
   {
     "id": 202010770,
     "name": "本田剛己",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "情報メディア創成",
     "year": 2022,
     "course": "sw"
@@ -74,7 +74,7 @@
   {
     "id": 202011320,
     "name": "関谷奈桜",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "情報メディア創成",
     "year": 2022,
     "course": "sw"
@@ -82,7 +82,7 @@
   {
     "id": 202011453,
     "name": "池垣隼介",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "情報メディア創成",
     "year": 2022,
     "course": "sw"
@@ -90,7 +90,7 @@
   {
     "id": 202011677,
     "name": "千々松大志",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "情報メディア創成",
     "year": 2022,
     "course": "sw"
@@ -98,7 +98,7 @@
   {
     "id": 202213518,
     "name": "清野駿",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "情報メディア創成",
     "year": 2022,
     "course": "sw"
@@ -106,7 +106,7 @@
   {
     "id": 202213589,
     "name": "居田陸人",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "情報メディア創成",
     "year": 2022,
     "course": "sw"
@@ -114,7 +114,7 @@
   {
     "id": 201910702,
     "name": "中村勇太",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "知識情報・図書館",
     "year": 2022,
     "course": "sw"
@@ -122,7 +122,7 @@
   {
     "id": 202213594,
     "name": "土戸翔太",
-    "account_url": "",
+    "account_url": [""],
     "faculty": "知識情報・図書館",
     "year": 2022,
     "course": "sw"
