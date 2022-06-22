@@ -1,10 +1,10 @@
 ---
 layout: root
 tags: results
-title: AR地図
+title: ARアプリ
 year: 2022
 term: spring
-icon: "/image/result-icon-sample.png"
+icon: "/image/ar_map_image.jpeg"
 cover: "/image/result-cover-sample.png"
 description: このアプリの要約文です。あまり長くならないように。
 repositories:
