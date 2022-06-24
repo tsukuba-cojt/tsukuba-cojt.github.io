@@ -4,8 +4,8 @@ tags: results
 title: Calculating Credits
 year: 2022
 term: spring
-icon: "/image/results/2022/icon.png"
-cover: "/image/results/2022/cover.jpeg"
+icon: "/image/results/2022/cc/icon.png"
+cover: "/image/results/2022/cc/cover.jpeg"
 description: 筑波大学の学類の単位計算を行うツールです
 repositories:
   [
