@@ -30,10 +30,15 @@ students: [202213589, 202213518, 202010392]
 ### 操作方法
 
 スペースキーで打鍵
+スタッカートは（未定）
+スラーは同時押し
+連譜は長押し
 
 ### クレジット
 
-いろいろ
+### 使用楽曲  
+きらきら星  
+Chartreuse Green - t+pazolite  
 
 ### Youtube埋め込み例
 
@@ -48,4 +53,8 @@ WIP
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c-l7xawEoDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_m7VChuZ9kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
