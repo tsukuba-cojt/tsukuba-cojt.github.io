@@ -4,8 +4,8 @@ tags: results
 title: SRPG
 year: 2022
 term: spring
-icon: "/image/result-icon-sample.png"
-cover: "/image/result-cover-sample.png"
+icon: "/image/icon.png"
+cover: "/image/cover.png"
 description: SRPGを楽しめるゲームです
 repositories: ["https://github.com/fukudaai/cojt"]
 students: [202010504, 202011320]
@@ -19,4 +19,4 @@ students: [202010504, 202011320]
 
 ## 作品紹介
 
-story
+ゲームシステムはsrpgで、ストーリー今後制作予定です。2Dと3Dが融合した映像表現のゲームです。
