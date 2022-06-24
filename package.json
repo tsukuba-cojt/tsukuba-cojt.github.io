@@ -51,7 +51,7 @@
     "dev": "run-p dev:*",
     "dev:eleventy": "eleventy --serve",
     "fix": "eslint --fix .",
-    "format": "prettier --verbose --cache --write '**/*.{js,json,md,njk,css,scss,pcss,yaml}'",
+    "format": "prettier --cache --write '**/*.{js,json,md,njk,css,scss,pcss,yaml}'",
     "lint": "eslint .",
     "release": "shipjs prepare"
   }
