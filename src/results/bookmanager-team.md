@@ -1,0 +1,40 @@
+---
+layout: root
+tags: results
+title: CloudShelf
+year: 2022
+term: spring
+icon: "/image/result-icon-sample.png"
+cover: "/image/result-cover-sample.png"
+description: このアプリの要約文です。あまり長くならないように。
+repositories:
+  [
+    "https://github.com/tsukuba-cojt/.github",
+    "https://github.com/tuqulore/vue-3-practices",
+  ]
+students: [201910702]
+---
+
+{% include "results_header.njk" %}
+
+## 参加学生
+
+{% student_by_id students_data, students %}
+
+## 作品紹介
+
+蔵書管理アプリ「CloudShelf」の紹介です。
+
+### Youtube埋め込み例
+
+以下のように '.youtube' クラスでラップしてiframeタグを埋め込んでください。（はみ出し等防止）
+
+```
+<div class="youtube">
+  <iframe width="560" height="315" src="xxxx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c-l7xawEoDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
