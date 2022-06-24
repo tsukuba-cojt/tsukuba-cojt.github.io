@@ -5,8 +5,8 @@ title: 音符で音ゲー(仮)
 year: 2022
 term: spring
 icon: "/image/results/2022/musicgame/icon.png"
-cover: "/image/result-cover-sample.png"
-description: 音符を使った音ゲーです 
+cover: "/image/results/2022/musicgame/cover.png"
+description: 音符を使った音ゲーです
 repositories:
   [
     "https://github.com/tsukuba-cojt/.github",
@@ -24,12 +24,15 @@ students: [202213589, 202213518, 202010392]
 ## 作品紹介
 
 ### 概要
+
 音符を使った音ゲー
 
 ### 操作方法
+
 スペースキーで打鍵
 
 ### クレジット
+
 いろいろ
 
 ### Youtube埋め込み例
