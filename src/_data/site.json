@@ -4,6 +4,7 @@
   "origin": "http://localhost:8080",
   "pages": [
     { "path": "/", "title": "はじめに" },
-    { "path": "/results", "title": "成果発表会" }
+    { "path": "/results", "title": "成果発表会" },
+    { "path": "/students", "title": "参加した学生の皆様" }
   ]
 }

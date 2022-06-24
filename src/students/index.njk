@@ -1,0 +1,15 @@
+---
+layout: root
+title: 参加した学生の皆様
+---
+
+<article class="prose">
+  <h1>{{title}}</h1>
+  <ul>
+    {% for student in students %}
+    <li>
+      <a href="{{student.id}}">{{student.name}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</article>
