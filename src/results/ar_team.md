@@ -21,12 +21,16 @@ students: [202010246, 202010770, 202010017]
 
 ARの実現にはAR.jsを、地図の取得にはOpenStreetMapを利用、室内の測量にARやNFCを活用する。
 
-## 取り組み
+### Youtube埋め込み例
 
-日鉄ソリュージョンズさんとAR/VR系のディスカッション&見学会を6/10に行いました。
+以下のように '.youtube' クラスでラップしてiframeタグを埋め込んでください。（はみ出し等防止）
 
-於：
+```
+<div class="youtube">
+  <iframe width="560" height="315" src="xxxx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```
 
-虎ノ門ヒルズビジネスタワー
-
-システム研究開発センター
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c-l7xawEoDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
