@@ -6,7 +6,10 @@
 <meta property="og:title" content="{{ title }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ site.origin }}{{ page.url }}" />
-<meta property="og:image" content="{{ site.origin }}{{ cover }}" />
+<meta
+  property="og:image"
+  content="{{ site.origin }}{{ cover or '/image/cojt-ogp.png' }}"
+/>
 <meta property="twitter:card" content="summary" />
 <meta
   property="twitter:description"
