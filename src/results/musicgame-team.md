@@ -23,8 +23,6 @@ students: [202213589, 202213518, 202010392]
 
 ## 作品紹介
 
-
-
 ### 概要
 
 音符を使った音ゲー
@@ -38,9 +36,10 @@ students: [202213589, 202213518, 202010392]
 
 ### クレジット
 
-### 使用楽曲  
+### 使用楽曲
+
 きらきら星  
-Chartreuse Green - t+pazolite  
+Chartreuse Green - t+pazolite
 
 ### Youtube埋め込み例
 
