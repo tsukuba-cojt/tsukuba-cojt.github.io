@@ -7,10 +7,7 @@ term: spring
 icon: "/image/results/2022/musicgame/icon.png"
 cover: "/image/results/2022/musicgame/cover.png"
 description: 音符を使った音ゲーです
-repositories:
-  [
-    "https://github.com/rikutons/COJTRhythmGame"
-  ]
+repositories: ["https://github.com/rikutons/COJTRhythmGame"]
 students: [202213589, 202213518, 202010392]
 ---
 
