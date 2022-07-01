@@ -6,12 +6,8 @@ year: 2022
 term: spring
 icon: "/image/result-icon-sample.png"
 cover: "/image/result-cover-sample.png"
-description: このアプリの要約文です。あまり長くならないように。
-repositories:
-  [
-    "https://github.com/tsukuba-cojt/.github",
-    "https://github.com/tuqulore/vue-3-practices",
-  ]
+description: "スマートフォンで閲覧できるオンライン書籍管理ツールです。"
+repositories: ["https://github.com/NakamuraYuta-klis/CloudShelf"]
 students: [201910702]
 ---
 
@@ -25,16 +21,23 @@ students: [201910702]
 
 蔵書管理アプリ「CloudShelf」の紹介です。
 
-### Youtube埋め込み例
+### 概要
 
-以下のように '.youtube' クラスでラップしてiframeタグを埋め込んでください。（はみ出し等防止）
+「出先で書店によったけど，シリーズ物の漫画を何巻まで買ったか思い出せない……」「あの作家の〇〇って本は持ってたっけ？」
+そんな悩みを解消するための蔵書管理ツールです。
 
-```
-<div class="youtube">
-  <iframe width="560" height="315" src="xxxx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-```
+### 特徴
 
-<div class="youtube">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c-l7xawEoDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+以下のような機能を持っています。
+
+#### ISBNによる書籍情報検索機能
+
+登録作業を簡略化するため，ISBNを入力すると書籍情報を楽天市場APIから取得し，自動的に登録することができるようにしました。
+
+#### ISBNのバーコードからの自動読み取り機能(開発中)
+
+スマートフォンのカメラ機能を使ってISBNを自動でバーコードから読み取ることができます。
+
+#### ユーザー登録機能(開発中)
+
+ユーザーごとに独立した本棚を管理することができ，必要に応じて本棚の内容をシェアすることもできます。
