@@ -1,6 +1,20 @@
-<meta property="og:description" content="{{ site.description }}" />
+<meta
+  property="og:description"
+  content="{{ description or site.description }}"
+/>
 <meta property="og:site_name" content="{{ site.name }}" />
 <meta property="og:title" content="{{ title }}" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{ site.origin }}" />
+<meta property="og:url" content="{{ site.origin }}{{ page.url }}" />
+<meta
+  property="og:image"
+  content="{{ site.origin }}{{ cover or '/image/cojt-ogp.png' }}"
+/>
 <meta property="twitter:card" content="summary" />
+<meta
+  property="twitter:description"
+  content="{{ description or site.description }}"
+/>
+<meta property="twitter:title" content="{{ title }}" />
+<meta property="twitter:image" content="{{ site.origin }}{{ cover }}" />
+<meta property="twitter:url" content="{{ site.origin }}{{ page.url }}" />
