@@ -5,6 +5,7 @@
     {% include 'ogp.njk' %}
     <link rel="stylesheet" href="/style/style.css" />
     <title>{{ title }}</title>
+    <meta name="description" content="{{ description or site.description }}" />
   </head>
   <body class="prose max-w-none bg-gray-50">
     {% include "header.njk" %}

@@ -24,7 +24,7 @@
     "postcss": "8.4.14",
     "postcss-import": "14.1.0",
     "postcss-load-config": "4.0.1",
-    "prettier": "2.6.2",
+    "prettier": "2.7.1",
     "prettier-plugin-md-nocjsp": "1.2.0",
     "rimraf": "3.0.2",
     "shipjs": "0.24.4",
@@ -51,7 +51,7 @@
     "dev": "run-p dev:*",
     "dev:eleventy": "eleventy --serve",
     "fix": "eslint --fix .",
-    "format": "prettier --verbose --write '**/*.{js,json,md,njk,css,scss,pcss,yaml}'",
+    "format": "prettier --cache --write '**/*.{js,json,md,njk,css,scss,pcss,yaml}'",
     "lint": "eslint .",
     "release": "shipjs prepare"
   }

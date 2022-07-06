@@ -1,9 +1,10 @@
 {
   "description": "筑波大学情報学群 組み込み技術キャンパスOJTの紹介ページ",
   "name": "筑波大学情報学群 組み込み技術キャンパスOJT",
-  "origin": "http://localhost:8080",
+  "origin": "https://tsukuba-cojt.github.io",
   "pages": [
     { "path": "/", "title": "はじめに" },
-    { "path": "/results", "title": "成果発表会" }
+    { "path": "/results", "title": "成果発表会" },
+    { "path": "/students", "title": "参加した学生の皆様" }
   ]
 }

@@ -1,0 +1,33 @@
+---
+layout: root
+pagination:
+  data: students
+  size: 1
+  alias: student
+permalink: "students/{{ student.id }}/"
+eleventyComputed:
+  title: "{{ student.name }}"
+  description: " 「{{ student.name }}」"
+---
+
+<article class="prose">
+  <p class="text-xs">
+    <a href="/">トップ</a> / <a href="/students">参加した学生の皆様</a> /
+    <span>{{student.name}}</span>
+  </p>
+
+  <section class="my-16">
+    <h1>{{title}}</h1>
+
+    <p>学部: {{student.faculty}}</p>
+    <p>{{student.year}} {{student.course}}</p>
+
+    <ul>
+      {% for url in student.account_url %}
+      <li>
+        <a href="{{ url }}">{{url}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</article>
