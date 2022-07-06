@@ -4,8 +4,8 @@ tags: results
 title: CloudShelf
 year: 2022
 term: spring
-icon: "/image/result-icon-sample.png"
-cover: "/image/result-cover-sample.png"
+icon: "/image/results/2022/bookmanager/tmp_logo.png"
+cover: "/image/results/2022/bookmanager/tmp_cover.jpg"
 description: "スマートフォンで閲覧できるオンライン書籍管理ツールです。"
 repositories: ["https://github.com/NakamuraYuta-klis/CloudShelf"]
 students: [201910702]
