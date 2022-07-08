@@ -1,0 +1,18 @@
+<nav class="side-menu">
+  <ul>
+    {% for navItem in site.pages %}
+    <li>
+      <a href="{{navItem.path | url}}">{{navItem.title}}</a>
+      {% if navItem.children.length %}
+      <ul>
+        {% for childItem in navItem.children %}
+        <li>
+          <a href="{{childItem.path | url}}">{{childItem.title}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

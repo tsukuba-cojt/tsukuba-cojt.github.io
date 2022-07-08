@@ -27,5 +27,13 @@
     </div>
 
     {% include "footer.njk" %}
+    <div
+      class="drawer-menu w-screen h-screen z-20 bg-white bg-opacity-95 fixed top-0 left-0"
+      id="drawer-menu-panel"
+      aria-hidden="true"
+    >
+      <div class="container pt-20">{% include "menus.njk" %}</div>
+    </div>
+    <script src="/script/global.js"></script>
   </body>
 </html>
