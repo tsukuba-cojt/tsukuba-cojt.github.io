@@ -37,8 +37,13 @@
       </a>
     </div>
 
-    <div class="flex justify-end items-center flex-shrink">
-      <div class="drawer-button" role="button" aria-expanded="false">
+    <div class="flex justify-end items-center flex-shrink md:hidden">
+      <div
+        class="drawer-button"
+        role="button"
+        aria-expanded="false"
+        aria-controls="drawer-menu-panel"
+      >
         <div class="drawer-button__bars">
           <span></span>
           <span></span>
@@ -71,7 +76,7 @@
           </ul>
         </nav>
       </div>
-      <main class="col-span-9">
+      <main class="md:col-span-9">
 <h1>成果発表一覧</h1>
 
 <p>
@@ -80,133 +85,141 @@
   を使ってブログ形式として残すことを目的とする。
 </p>
 <div class="not-prose">
-  <ul class="grid grid-cols-2 md:grid-cols-4 gap-4"><li>
+  <ul class="grid lg:grid-cols-2 gap-4"><li>
       <a
         href="/results/ar_team/"
-        class="jumpu-card no-underline hover:opacity-80 block py-8"
+        class="jumpu-card no-underline hover:opacity-80 block p-8 h-full"
       >
-        <figure class="flex flex-col justify-center items-center">
+        <div class="flex justify-start items-center gap-4">
           <img
             class="w-24 h-*24 rounded-md"
             src="/image/ar_map_image.jpeg"
             alt="ARアプリ"
           />
-          <figcaption class="mt-4">
-            <h2>ARアプリ</h2>
-          </figcaption>
-        </figure>
+          <div class="">
+            <h2 class="font-bold">ARアプリ</h2>
+            <p class="text-sm leading-tight">このアプリの要約文です。あまり長くならないように。</p>
+          </div>
+        </div>
       </a>
     </li><li>
       <a
         href="/results/bookmanager-team/"
-        class="jumpu-card no-underline hover:opacity-80 block py-8"
+        class="jumpu-card no-underline hover:opacity-80 block p-8 h-full"
       >
-        <figure class="flex flex-col justify-center items-center">
+        <div class="flex justify-start items-center gap-4">
           <img
             class="w-24 h-*24 rounded-md"
             src="/image/results/2022/bookmanager/tmp_logo.png"
             alt="CloudShelf"
           />
-          <figcaption class="mt-4">
-            <h2>CloudShelf</h2>
-          </figcaption>
-        </figure>
+          <div class="">
+            <h2 class="font-bold">CloudShelf</h2>
+            <p class="text-sm leading-tight">スマートフォンで閲覧できるオンライン書籍管理ツールです。</p>
+          </div>
+        </div>
       </a>
     </li><li>
       <a
         href="/results/cc/"
-        class="jumpu-card no-underline hover:opacity-80 block py-8"
+        class="jumpu-card no-underline hover:opacity-80 block p-8 h-full"
       >
-        <figure class="flex flex-col justify-center items-center">
+        <div class="flex justify-start items-center gap-4">
           <img
             class="w-24 h-*24 rounded-md"
             src="/image/results/2022/cc/icon.png"
             alt="Calculating Credits"
           />
-          <figcaption class="mt-4">
-            <h2>Calculating Credits</h2>
-          </figcaption>
-        </figure>
+          <div class="">
+            <h2 class="font-bold">Calculating Credits</h2>
+            <p class="text-sm leading-tight">筑波大学の学類の単位計算を行うツールです</p>
+          </div>
+        </div>
       </a>
     </li><li>
       <a
         href="/results/music_analyze/"
-        class="jumpu-card no-underline hover:opacity-80 block py-8"
+        class="jumpu-card no-underline hover:opacity-80 block p-8 h-full"
       >
-        <figure class="flex flex-col justify-center items-center">
+        <div class="flex justify-start items-center gap-4">
           <img
             class="w-24 h-*24 rounded-md"
             src="/image/results/2022/music_analyze/logo.png"
             alt="Spotilyze"
           />
-          <figcaption class="mt-4">
-            <h2>Spotilyze</h2>
-          </figcaption>
-        </figure>
+          <div class="">
+            <h2 class="font-bold">Spotilyze</h2>
+            <p class="text-sm leading-tight">spotifyユーザのTOP SONGから音楽の趣味の傾向を分析します</p>
+          </div>
+        </div>
       </a>
     </li><li>
       <a
         href="/results/musicgame-team/"
-        class="jumpu-card no-underline hover:opacity-80 block py-8"
+        class="jumpu-card no-underline hover:opacity-80 block p-8 h-full"
       >
-        <figure class="flex flex-col justify-center items-center">
+        <div class="flex justify-start items-center gap-4">
           <img
             class="w-24 h-*24 rounded-md"
             src="/image/results/2022/musicgame/icon.png"
             alt="音符で音ゲー(仮)"
           />
-          <figcaption class="mt-4">
-            <h2>音符で音ゲー(仮)</h2>
-          </figcaption>
-        </figure>
+          <div class="">
+            <h2 class="font-bold">音符で音ゲー(仮)</h2>
+            <p class="text-sm leading-tight">音符を使った音ゲーです</p>
+          </div>
+        </div>
       </a>
     </li><li>
       <a
         href="/results/prettier-team/"
-        class="jumpu-card no-underline hover:opacity-80 block py-8"
+        class="jumpu-card no-underline hover:opacity-80 block p-8 h-full"
       >
-        <figure class="flex flex-col justify-center items-center">
+        <div class="flex justify-start items-center gap-4">
           <img
             class="w-24 h-*24 rounded-md"
             src="/image/results/2022/prettier/icon.png"
             alt="Prettier 2.7"
           />
-          <figcaption class="mt-4">
-            <h2>Prettier 2.7</h2>
-          </figcaption>
-        </figure>
+          <div class="">
+            <h2 class="font-bold">Prettier 2.7</h2>
+            <p class="text-sm leading-tight">コードフォーマッター Prettier のバージョン 2.7 です</p>
+          </div>
+        </div>
       </a>
     </li><li>
       <a
         href="/results/sample-team/"
-        class="jumpu-card no-underline hover:opacity-80 block py-8"
+        class="jumpu-card no-underline hover:opacity-80 block p-8 h-full"
       >
-        <figure class="flex flex-col justify-center items-center">
+        <div class="flex justify-start items-center gap-4">
           <img
             class="w-24 h-*24 rounded-md"
             src="/image/result-icon-sample.png"
             alt="アプリタイトル"
           />
-          <figcaption class="mt-4">
-            <h2>アプリタイトル</h2>
-          </figcaption>
-        </figure>
+          <div class="">
+            <h2 class="font-bold">アプリタイトル</h2>
+            <p class="text-sm leading-tight">このアプリの要約文です。あまり長くならないように。</p>
+          </div>
+        </div>
       </a>
     </li><li>
       <a
         href="/results/srpg/"
-        class="jumpu-card no-underline hover:opacity-80 block py-8"
+        class="jumpu-card no-underline hover:opacity-80 block p-8 h-full"
       >
-        <figure class="flex flex-col justify-center items-center">
+        <div class="flex justify-start items-center gap-4">
           <img
             class="w-24 h-*24 rounded-md"
             src="/image/icon.png"
             alt="SRPG"
           />
-          <figcaption class="mt-4">
-            <h2>SRPG</h2>
-          </figcaption>
-        </figure>
+          <div class="">
+            <h2 class="font-bold">SRPG</h2>
+            <p class="text-sm leading-tight">SRPGを楽しめるゲームです</p>
+          </div>
+        </div>
       </a>
     </li></ul>
 </div>
@@ -247,5 +260,33 @@
   </div>
 </footer>
 
+    <div
+      class="drawer-menu w-screen h-screen z-20 bg-white bg-opacity-95 fixed top-0 left-0"
+      id="drawer-menu-panel"
+      aria-hidden="true"
+    >
+      <div class="container pt-20"><nav class="side-menu">
+  <ul>
+    
+    <li>
+      <a href="/">はじめに</a>
+      
+    </li>
+    
+    <li>
+      <a href="/results">成果発表会</a>
+      
+    </li>
+    
+    <li>
+      <a href="/students">参加した学生の皆様</a>
+      
+    </li>
+    
+  </ul>
+</nav>
+</div>
+    </div>
+    <script src="/script/global.js"></script>
   </body>
 </html>

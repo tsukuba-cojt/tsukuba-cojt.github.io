@@ -37,8 +37,13 @@
       </a>
     </div>
 
-    <div class="flex justify-end items-center flex-shrink">
-      <div class="drawer-button" role="button" aria-expanded="false">
+    <div class="flex justify-end items-center flex-shrink md:hidden">
+      <div
+        class="drawer-button"
+        role="button"
+        aria-expanded="false"
+        aria-controls="drawer-menu-panel"
+      >
         <div class="drawer-button__bars">
           <span></span>
           <span></span>
@@ -71,7 +76,7 @@
           </ul>
         </nav>
       </div>
-      <main class="col-span-9">
+      <main class="md:col-span-9">
 <article class="prose">
   <h1>はじめに</h1>
   <p>
@@ -117,5 +122,33 @@
   </div>
 </footer>
 
+    <div
+      class="drawer-menu w-screen h-screen z-20 bg-white bg-opacity-95 fixed top-0 left-0"
+      id="drawer-menu-panel"
+      aria-hidden="true"
+    >
+      <div class="container pt-20"><nav class="side-menu">
+  <ul>
+    
+    <li>
+      <a href="/">はじめに</a>
+      
+    </li>
+    
+    <li>
+      <a href="/results">成果発表会</a>
+      
+    </li>
+    
+    <li>
+      <a href="/students">参加した学生の皆様</a>
+      
+    </li>
+    
+  </ul>
+</nav>
+</div>
+    </div>
+    <script src="/script/global.js"></script>
   </body>
 </html>
