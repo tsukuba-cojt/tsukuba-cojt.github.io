@@ -4,9 +4,9 @@ tags: results
 title: music_analyze(仮)
 year: 2022
 term: spring
-icon: "/image/result-icon-sagit mple.png"
-cover: "/image/result-cover-sample.png"
-description: アルバムから特徴のある曲を抜き出します。
+icon: "/image/results/2022/music_analyze/logo.png"
+cover: "/image/results/2022/music_analyze/logo.png"
+description: spotifyユーザのTOP SONGから音楽の趣味の傾向を分析します
 repositories:
   [
     "https://github.com/tsukuba-cojt/.github",
@@ -23,6 +23,6 @@ students: [202011677]
 
 ## 作品紹介
 
-元気になりたい時、ゆったりしたい時、踊りたい時などシチュエーション別でどんな曲がおすすめかアルバムの中から選びます
+自分はどんな音楽が好きなのかを分析してもらうことで、新しく曲をdigる参考にしたりできます
 
 
