@@ -1,0 +1,26 @@
+---
+layout: root
+tags: results
+title: music_analyze(仮)
+year: 2022
+term: spring
+icon: "/image/results/2022/music_analyze/logo.png"
+cover: "/image/results/2022/music_analyze/logo.png"
+description: spotifyユーザのTOP SONGから音楽の趣味の傾向を分析します
+repositories:
+  [
+    "https://github.com/tsukuba-cojt/.github",
+    "https://github.com/tuqulore/vue-3-practices",
+  ]
+students: [202011677]
+---
+
+{% include "results_header.njk" %}
+
+## 参加学生
+
+{% student_by_id students_data, students %}
+
+## 作品紹介
+
+自分はどんな音楽が好きなのかを分析してもらうことで、新しく曲をdigる参考にしたりできます
