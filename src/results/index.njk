@@ -11,23 +11,24 @@ title: 成果発表一覧
   を使ってブログ形式として残すことを目的とする。
 </p>
 <div class="not-prose">
-  <ul class="grid grid-cols-2 md:grid-cols-4 gap-4">
+  <ul class="grid lg:grid-cols-2 gap-4">
     {%- for post in collections.results -%}
     <li>
       <a
         href="{{ post.url }}"
-        class="jumpu-card no-underline hover:opacity-80 block py-8"
+        class="jumpu-card no-underline hover:opacity-80 block p-8 h-full"
       >
-        <figure class="flex flex-col justify-center items-center">
+        <div class="flex justify-start items-center gap-4">
           <img
             class="w-24 h-*24 rounded-md"
             src="{{ post.data.icon }}"
             alt="{{ post.data.title }}"
           />
-          <figcaption class="mt-4">
-            <h2>{{ post.data.title }}</h2>
-          </figcaption>
-        </figure>
+          <div class="">
+            <h2 class="font-bold">{{ post.data.title }}</h2>
+            <p class="text-sm leading-tight">{{post.data.description}}</p>
+          </div>
+        </div>
       </a>
     </li>
     {%- endfor -%}

@@ -10,3 +10,13 @@
   width: 100%;
   height: 100%;
 }
+
+.drawer-menu {
+  @apply transition-transform duration-300;
+  &[aria-hidden="true"] {
+    @apply translate-y-full;
+  }
+  &[aria-hidden="false"] {
+    @apply translate-y-0;
+  }
+}
