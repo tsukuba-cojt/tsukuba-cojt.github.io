@@ -7,11 +7,7 @@ term: spring
 icon: "/image/results/2022/musicgame/icon.png"
 cover: "/image/results/2022/musicgame/cover.png"
 description: 音符を使った音ゲーです
-repositories:
-  [
-    "https://github.com/tsukuba-cojt/.github",
-    "https://github.com/tuqulore/vue-3-practices",
-  ]
+repositories: ["https://github.com/rikutons/COJTRhythmGame"]
 students: [202213589, 202213518, 202010392]
 ---
 
@@ -30,10 +26,16 @@ students: [202213589, 202213518, 202010392]
 ### 操作方法
 
 スペースキーで打鍵
+スタッカートは（未定）
+スラーは同時押し
+連譜は長押し
 
 ### クレジット
 
-いろいろ
+### 使用楽曲
+
+きらきら星  
+Chartreuse Green - t+pazolite
 
 ### Youtube埋め込み例
 
@@ -48,4 +50,8 @@ WIP
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c-l7xawEoDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_m7VChuZ9kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
