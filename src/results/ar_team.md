@@ -1,18 +1,14 @@
 ---
 layout: root
 tags: results
-title: AR地図
+title: ARアプリ
 year: 2022
 term: spring
-icon: "/image/result-icon-sample.png"
-cover: "/image/result-cover-sample.png"
+icon: "/image/ar_map_image.jpeg"
+cover: "/image/ar_map_image.jpeg"
 description: このアプリの要約文です。あまり長くならないように。
-repositories:
-  [
-    "https://github.com/tsukuba-cojt/.github",
-    "https://github.com/tuqulore/vue-3-practices",
-  ]
-students: [123456789, 123456781]
+repositories: ["https://github.com/kenkenissocool/ARapp"]
+students: [202010246, 202010770, 202010017]
 ---
 
 {% include "results_header.njk" %}
@@ -23,18 +19,14 @@ students: [123456789, 123456781]
 
 ## 作品紹介
 
-自由記述、マークダウン、html, nunjucks形式が使えるので、それぞれWebページを作成してください。
+ARの実現にはAR.jsを、地図の取得にはOpenStreetMapを利用、室内の測量にARやNFCを活用する。
 
-### Youtube埋め込み例
+## 取り組み
 
-以下のように '.youtube' クラスでラップしてiframeタグを埋め込んでください。（はみ出し等防止）
+日鉄ソリュージョンズさんとAR/VR系のディスカッション&見学会を6/10に行いました。
 
-```
-<div class="youtube">
-  <iframe width="560" height="315" src="xxxx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-```
+於：
 
-<div class="youtube">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c-l7xawEoDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+虎ノ門ヒルズビジネスタワー
+
+システム研究開発センター
