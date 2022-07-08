@@ -2,9 +2,7 @@
 layout: root
 tags: news
 title: 成果発表会 2022 春学期が開催されます
-year: 2022
-term: spring
-cover: "/image/result-cover-sample.png"
+cover: "/image/cojt-ogp.png"
 description: 2022年7月29日（金）に筑波大学情報学群 組み込み技術キャンパスOJTの成果発表会をオンラインで行います。参加無料でZoomで行います。
 ---
 
