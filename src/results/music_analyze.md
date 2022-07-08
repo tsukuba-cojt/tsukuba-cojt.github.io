@@ -1,11 +1,11 @@
 ---
 layout: root
 tags: results
-title: music_analyze(仮)
+title: Spotilyze
 year: 2022
 term: spring
 icon: "/image/results/2022/music_analyze/logo.png"
-cover: "/image/results/2022/music_analyze/logo.png"
+cover: "/image/results/2022/music_analyze/cover.png"
 description: spotifyユーザのTOP SONGから音楽の趣味の傾向を分析します
 repositories:
   [
@@ -23,4 +23,4 @@ students: [202011677]
 
 ## 作品紹介
 
-自分はどんな音楽が好きなのかを分析してもらうことで、新しく曲をdigる参考にしたりできます
+自分はどんな音楽が好きなのかを分析してもらうことで、新しく曲をdigる参考にしたりできます。音楽好きの友達と一緒に結果を比べて盛り上がったりしてもいいかもしれません。
