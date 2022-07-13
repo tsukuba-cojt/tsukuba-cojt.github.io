@@ -6,6 +6,8 @@ cover: "/image/cojt-ogp.png"
 description: 2022年7月29日（金）に筑波大学情報学群 組み込み技術キャンパスOJTの成果発表会をオンラインで行います。参加無料でZoomで行います。
 ---
 
+<img class="mt-0" src="/image/result-ogp-2022s.png" alt="2022年 春学期 成果発表会" width="1200" height="630" />
+
 # {{title}}
 
 2022年7月29日（金）に筑波大学情報学群 組み込み技術キャンパスOJTの成果発表会をオンラインで行います。
@@ -24,7 +26,7 @@ description: 2022年7月29日（金）に筑波大学情報学群 組み込み�
 : Zoom会場となります、[参加したい！という方は公式TwitterのほうにDM](https://twitter.com/cojt_tsukuba)をください。
 
 <p>
-<a href="https://twitter.com/cojt_tsukuba" class="jumpu-button">参加表明する</a>
+<a href="https://twitter.com/cojt_tsukuba" class="jumpu-button text-2xl">参加表明する</a>
 </p>
 
 ## タイムテーブル
