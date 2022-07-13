@@ -3,11 +3,33 @@ layout: root
 title: はじめに
 ---
 
-<article class="prose">
-  <h1>{{title}}</h1>
+<div class="bg-gray-50">
+  <div class="">
+    <a href="/news/2022spring-results/">
+      <img
+        class="mt-0"
+        src="/image/result-ogp-2022s.png"
+        alt="2022年 春学期 成果発表会"
+      />
+    </a>
+  </div>
+</div>
+
+<article class="prose max-w-none">
   <p>
     筑波大学情報学群
     組み込み技術キャンパスOJTの活動、及び成果発表を残すためのリポジトリ
   </p>
+
+  <section>
+    <h2>おしらせ</h2>
+    <ul>
+      {% for newsItem in collections.news %}
+      <li>
+        <a href="{{newsItem.url}}">{{newsItem.data.title}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
   <script src="/script/index.js"></script>
 </article>
