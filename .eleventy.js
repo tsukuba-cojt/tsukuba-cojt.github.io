@@ -67,6 +67,17 @@ module.exports = (eleventyConfig) => {
     }
   });
 
+  eleventyConfig.addShortcode("conv_course_to_ja", (course) => {
+    switch (course) {
+      case "sw":
+        return "ソフトウェアコース";
+      case "hw":
+        return "ハードウェアコース";
+      default:
+        return "";
+    }
+  });
+
   return {
     pathPrefix: "",
     dir: {

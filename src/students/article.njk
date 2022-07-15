@@ -20,7 +20,7 @@ eleventyComputed:
     <h1>{{title}}</h1>
 
     <p>学部: {{student.faculty}}</p>
-    <p>{{student.year}} {{student.course}}</p>
+    <p>{{student.year}} {% conv_course_to_ja student.course %}</p>
 
     <ul>
       {% for url in student.account_url %}
