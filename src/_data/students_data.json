@@ -1,13 +1,5 @@
 [
   {
-    "id": 123456789,
-    "name": "秋葉秀樹",
-    "account_url": ["https://github.com/Hidetaro7"],
-    "faculty": "○○学科",
-    "year": 2022,
-    "course": "sw"
-  },
-  {
     "id": 201911343,
     "name": "鈴木颯介",
     "account_url": ["https://github.com/sosukesuzuki"],
