@@ -19,8 +19,8 @@ eleventyComputed:
   <section class="my-16">
     <h1>{{title}}</h1>
 
-    <p>学部: {{student.faculty}}</p>
-    <p>{{student.year}} {{student.course}}</p>
+    <p>学類: {{student.faculty}}</p>
+    <p>{{student.year}}年度 {% conv_course_to_ja student.course %}</p>
 
     <ul>
       {% for url in student.account_url %}

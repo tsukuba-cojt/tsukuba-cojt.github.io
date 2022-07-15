@@ -55,6 +55,29 @@ module.exports = (eleventyConfig) => {
     );
     return resHTML + "</ul>";
   });
+
+  eleventyConfig.addShortcode("conv_term_to_ja", (term) => {
+    switch (term) {
+      case "spring":
+        return "春学期";
+      case "fall":
+        return "秋学期";
+      default:
+        return "";
+    }
+  });
+
+  eleventyConfig.addShortcode("conv_course_to_ja", (course) => {
+    switch (course) {
+      case "sw":
+        return "ソフトウェアコース";
+      case "hw":
+        return "ハードウェアコース";
+      default:
+        return "";
+    }
+  });
+
   return {
     pathPrefix: "",
     dir: {

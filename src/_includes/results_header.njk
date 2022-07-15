@@ -9,11 +9,11 @@
   <h1 class="my-0">{{title}}</h1>
 </header>
 
-<p class="text-sm">{{year}}年度 {{term}}に発表されました</p>
+<p class="text-sm">{{year}}年度{% conv_term_to_ja term %}に発表されました</p>
 
 <!-- prettier-ignore -->
 <section>
-<h2>repositories</h2>
+<h2>Repositories</h2>
 <ul class="text-xs font-mono">
 {% for repo in repositories %}
 <li><a href="{{repo}}">{{repo}}</a></li>
