@@ -56,7 +56,7 @@ students: [202213589, 202213518, 202010392]
 ### 使用楽曲
 
 - きらきら星
-- Chartreuse Green - t+pazolite
+- Psyched Fevereiro - t+pazolite
 
 ### デモビデオ
 
