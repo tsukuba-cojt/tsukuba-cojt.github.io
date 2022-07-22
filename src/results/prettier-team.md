@@ -24,3 +24,5 @@ students: [201911343, 202011445]
 このバージョンには新しい `--cache` CLI オプションとTypeScript 4.7 の構文のサポートが含まれています。また、多くのバグ修正が含まれています。
 
 詳しくは公式のリリースブログ https://prettier.io/blog/2022/06/14/2.7.0.html をご覧ください。
+
+{% include "related_results.njk" %}

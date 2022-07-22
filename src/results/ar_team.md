@@ -30,3 +30,5 @@ ARの実現にはAR.jsを、地図の取得にはOpenStreetMapを利用、室内
 虎ノ門ヒルズビジネスタワー
 
 システム研究開発センター
+
+{% include "related_results.njk" %}

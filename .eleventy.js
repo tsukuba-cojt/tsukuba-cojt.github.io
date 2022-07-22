@@ -78,6 +78,19 @@ module.exports = (eleventyConfig) => {
     }
   });
 
+  eleventyConfig.addShortcode(
+    "related_sameyear_results",
+    (results, year, term) => {
+      let filterResults = "";
+      results.forEach((result) => {
+        if (result.data.year === year && result.data.term === term) {
+          filterResults += `<li><a href="${result.url}">${result.data.title}</a></li>`;
+        }
+      });
+      return filterResults;
+    }
+  );
+
   return {
     pathPrefix: "",
     dir: {
