@@ -25,3 +25,5 @@ students: [202011677]
 
 自分はどんな音楽が好きなのかを分析してもらうことで、新しく曲をdigる参考にしたりできます。音楽好きの友達と一緒に結果を比べて盛り上がったりしてもいいかもしれません。
 <img src="/image/results/2022/music_analyze/capture1.png" alt="アプリのキャプチャ" title="">
+
+{% include "related_results.njk" %}

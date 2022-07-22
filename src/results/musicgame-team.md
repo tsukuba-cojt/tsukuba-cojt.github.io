@@ -67,3 +67,5 @@ students: [202213589, 202213518, 202010392]
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2D5kfpHlp8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+{% include "related_results.njk" %}

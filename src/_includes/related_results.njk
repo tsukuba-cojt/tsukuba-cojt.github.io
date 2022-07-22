@@ -1,0 +1,10 @@
+<div class="jumpu-card p-8 mt-16">
+  <p class="font-bold text-xl mt-0">
+    {{year}}年度{% conv_term_to_ja term %}の関連作品
+  </p>
+  <div>
+    <ul>
+      {% related_sameyear_results collections.results, year, term %}
+    </ul>
+  </div>
+</div>

@@ -94,3 +94,5 @@ students: [202011453, 202213594]
 ## 実際の画面
 
 <img src="/image/results/2022/circle/image.png" width="565" height="400">
+
+{% include "related_results.njk" %}
