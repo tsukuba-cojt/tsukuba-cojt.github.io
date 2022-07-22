@@ -10,7 +10,7 @@ description: spotifyユーザのTOP SONGから音楽の趣味の傾向を分析�
 repositories:
   [
     "https://github.com/tsukuba-cojt/.github",
-    "https://github.com/tuqulore/vue-3-practices",
+    "https://github.com/tsukuba-cojt/spotifyapi",
   ]
 students: [202011677]
 ---
@@ -24,3 +24,4 @@ students: [202011677]
 ## 作品紹介
 
 自分はどんな音楽が好きなのかを分析してもらうことで、新しく曲をdigる参考にしたりできます。音楽好きの友達と一緒に結果を比べて盛り上がったりしてもいいかもしれません。
+<img src="/image/results/2022/music_analyze/capture1.png" alt="アプリのキャプチャ" title="">
