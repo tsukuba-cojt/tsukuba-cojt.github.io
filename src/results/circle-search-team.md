@@ -9,8 +9,7 @@ cover: "/image/results/2022/circle/cover.png"
 description: サークルを簡単に検索できるサービス
 repositories:
   [
-    "https://github.com/tsukuba-cojt/.github",
-    "https://github.com/tuqulore/vue-3-practices",
+    "https://github.com/shunsuke0424/circle_search"
   ]
 students: [202011453, 202213594]
 ---
